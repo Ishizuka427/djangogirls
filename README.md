@@ -7,5 +7,10 @@ runserver
 $ python3 manage.py runserver
 ```
 
+仮想環境
+```
+$ source myvenv/bin/activate
+```
+
 http://127.0.0.1:8000/
 
