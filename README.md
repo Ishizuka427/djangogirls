@@ -2,24 +2,25 @@
 
 [![CircleCI](https://circleci.com/gh/suwa3/djangogirls.svg?style=svg)](https://circleci.com/gh/suwa3/djangogirls)
 
+### How to use
 ```sh
 git clone git@github.com:Ishizuka427/djangogirls.git
 cd djangogirls
 python3 -V                 
 Python 3.9.7
-
 ```
-仮想環境
+### myvenv
 ```sh
 python3 -m venv myvenv
 source myvenv/bin/activate
 ```
-Django Install
+### Django Install
 ```sh
 (myvenv) ~$ python -m pip install --upgrade pip
+(myvenv) ~$ sed -e "s/Django~=.*/Django~=2.2.5/" requirements.txt
+(myvenv) ~$ pip install -r requirements.txt
 ```
-
-runserver
+### runserver
 ```
 $ python3 manage.py runserver
 ```
