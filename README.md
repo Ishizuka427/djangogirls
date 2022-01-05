@@ -14,7 +14,7 @@ Python 3.9.7
 python3 -m venv myvenv
 source myvenv/bin/activate
 ```
-### Django Install
+### Django v2.2.5 Install
 ```sh
 (myvenv) ~$ python -m pip install --upgrade pip
 (myvenv) ~$ sed -e "s/Django~=.*/Django~=2.2.5/" requirements.txt
