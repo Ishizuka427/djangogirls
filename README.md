@@ -1,6 +1,7 @@
 ## Django Girls
 
 [![CircleCI](https://circleci.com/gh/suwa3/djangogirls.svg?style=svg)](https://circleci.com/gh/suwa3/djangogirls)
+↑修正する
 
 ### How to use
 ```sh
